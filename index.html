@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
 </head>
+
 <body>
     <h1>Página de Estudos</h1>
+
+    <!-- Campo de digitação e botão -->
+    <form method="get" action="envio_dados.php">
+        <input type="text" name="nome" placeholder="Digite seu Nome">
+        <input type="e-mail" name="email" placeholder="Digite seu E-mail">
+        <input type="submit" name="enviar" placeholder="Enviar">
+    </form>
+
+    <!-- Quando clicar no botão clique aqui, vai aparecer uma mensagem de alerta -->
+    <form>
+        <input type="button" value="Clique Aqui" onclick="msg()">
+    </form>
+    <!-- Mensagem de alerta -->
+    <script>
+        function msg() {
+            alert("Você clicou no botão")
+        }
+    </script>
 </body>
+
 </html>
