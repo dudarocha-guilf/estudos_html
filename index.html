@@ -17,16 +17,133 @@
         <input type="submit" name="enviar" placeholder="Enviar">
     </form>
 
-    <!-- Quando clicar no botão clique aqui, vai aparecer uma mensagem de alerta -->
+    <!-- Criando um botão clique aqui -->
     <form>
         <input type="button" value="Clique Aqui" onclick="msg()">
     </form>
+
+    <!-- Para fazer caixa de check -->
+    <form>
+        <input type="checkbox" name="veiculo1" value="bicicleta">
+        Eu tenho uma bicicleta<br>
+        <input type="checkbox" name="veiculo2" value="carro">
+        Eu tenho um carro<br>
+        <input type="checkbox" name="veiculo3" value="moto">
+        Eu tenho uma moto
+    </form>
+
+    <!-- Para escolher a cor favorita com a tabela -->
+    <form>
+        Selecione sua cor favorita: <input type="color" name="favcor" value="#0000FF">
+    </form>
+
+    <!-- Colocar um calendariozinho para escolher a data de nascimento -->
+    <form>
+        Data de Nascimento: <input type="date" name="nascimento">
+    </form>
+
+    <!-- Colocar data e hora -->
+    <form>
+        Data de Nascimento: <input type="datetime-local" name="bdaytime">
+    </form>
+
+    <!-- Para permitir o envio de um único arquivo por vez -->
+    <form>
+        <input type="file" name="arquivos">
+    </form>
+
+    <br><br><br>
+
+    <!-- Para permitir selecionar muitos arquivos -->
+    <form>
+        <input type="file" name="arquivos" multiple>
+    </form>
+
+    <!-- Escolher uma qntd específica entre 1 e 5 -->
+    <form>
+        Quantidade (entre 1 e 5): <input type="number" name="qtd" min="1" max="5">
+    </form>
+
+    <!-- Adicionar uma senha -->
+    <form>
+        <input type="password" name="senha" placeholder="Digite sua Senha">
+    </form>
+
+    <!-- Para checar a idade -->
+    <form>
+        <p> Qual sua idade?</p>
+
+        <input type="radio" name="idade" value="18_22">18 a 22<br>
+        <input type="radio" name="idade" value="23_30">23 a 30<br>
+        <input type="radio" name="idade" value="mais31">Acima de 31<br>
+    </form>
+
+    <!-- Comentario com barra deslizante de satisfação -->
+    <form>
+        Defina seu nível de satisfação:<br>
+
+        pouco satisfeito 😔 <input type="range" name="satisfacao" min="0" max="10"> muito satisfeito 😁
+    </form>
+
+    <!-- Label faz uma ligação/relação com o id que se der reset ou submit 
+     ele irá apagar ou salvar oq tiver com o label -->
+    <form>
+        <label for="email">Digite seu E-mail</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pin">Digite seu Código</label>
+        <input type="text" id="pin" name="pin" maxlength="4"><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Para criar uma barra de pesquisa -->
+    <form>
+        Pesquisar: <input type="search" name="q">
+    </form>
+
+    <!-- Para criar um botão para finalizar a pesquisa -->
+    <form>
+        <input type="submit" value="Enviar Formulário">
+    </form>
+
+    <!-- Para colocar um número de telefone -->
+    <form>
+        Telefone: <input type="tel" name="usetel">
+    </form>
+
+    <!-- Para criar um link para acessar o site web -->
+    <form>
+        Link do seu WebSite: <input type="url" name="webpage">
+    </form>
+
+    <!-- Área para colocar um texto grande dentro -->
+    <form>
+        <textarea></textarea>
+        <br>
+        <textarea>Área de texto com um texto inicial dentro</textarea>
+    </form>
+
+    <!-- Selecione uma opção "guardada" que precisa clicar na seta para abrir -->
+    <select name="lista" id="lista">
+        <option>Selecione uma opção</option>
+        <option>Macarrão</option>
+        <option>Pizza</option>
+        <option>Nhoque</option>
+        <option>Canelone</option>
+    </select>
+
+    <!-- Área delimitada para inserção de campos, div bonita -->
+    <fieldset>
+        <legend>Formulário</legend>
+    </fieldset>
+
     <!-- Mensagem de alerta -->
     <script>
         function msg() {
-            alert("Você clicou no botão")
+            alert("Você clicou no botão!")
         }
     </script>
+
 </body>
 
 </html>
