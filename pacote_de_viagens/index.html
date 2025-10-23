@@ -12,17 +12,112 @@
 </head>
 
 <body>
+
+    <!-- Primeira parte do código -->
     <h1>PACOTES DE VIAGEM</h1>
     <h2>DESTINO: ILHA DE TSUSHIMA</h2>
     <hr>
 
+    <!-- Criação da tabela-->
+    <!-- Width=100% para a tabela ocupar 100%da tela -->
     <table width="100%" id="tabela">
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+
+        <!-- Criação da primeira parte tabela(cabeçalho) -->
+        <th>Local</th>
+        <th>Foto do Local</th>
+        <th>Valor do Pacote</th>
+        <th>Quantidade</th>
+        <th>Valor Total</th>
+
+        <!-- Segunda parte da tabela() -->
+        <!--tr = Linha da tabela -->
+        <tr>
+            <!--td = célula da tabela -->
+            <td>Ilha Iki</td>
+            <td><img src="imagens/img01.jpg"></td>
+            <td>R$ 15.000,00</td>
+            <td>1</td>
+            <td>R$ 15.000,00</td>
+        </tr>
+
+        <!-- Terceira Parte da tabela -->
+        <tr>
+            <!--td = célula da tabela -->
+            <td>Vila Adach</td>
+            <td><img src="imagens/img02.jpg"></td>
+            <td>R$ 15.000,00</td>
+            <td>1</td>
+            <td>R$ 15.000,00</td>
+        </tr>
+
+        <!-- Quarta Parte da tabela -->
+        <tr>
+            <!--td = célula da tabela -->
+            <td>Templo Budista</td>
+            <td><img src="imagens/img03.jpg"></td>
+            <td>R$ 15.000,00</td>
+            <td>1</td>
+            <td>R$ 15.000,00</td>
+        </tr>
+
+        <!-- Quinta parte da tabela -->
+        <tr>
+            <!--td = célula da tabela -->
+            <td>Castelo Sakai</td>
+            <td><img src="imagens/img04.jpg"></td>
+            <td>R$ 15.000,00</td>
+            <td>1</td>
+            <td>R$ 15.000,00</td>
+        </tr>
     </table>
+    <hr>
+
+    <!-- Título antes da minha humilde última tabela -->
+    <h2>DADOS PARA CONTATO</h2>
+
+    <!--Criação da última tabela -->
+    <table id="contato">
+
+        <!-- Nome -->
+        <tr>
+            <td>
+                Nome:<input type="text" name="nome">
+            </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+            <td>
+                E-mail:<input type="email" name="email">
+            </td>
+        </tr>
+
+        <!--Telefone -->
+        <tr>
+            <td>
+                Telefone: <input type="tel" name="tel">
+            </td>
+        </tr>
+
+        <!-- Endereço -->
+        <tr>
+            <td>
+                Endereço: <input type="text" name="end">
+            </td>
+        </tr>
+
+        <!-- Botão para enviar as informações -->
+        <tr>
+            <td id="botao">Clique para Enviar</td>
+        </tr>
+    </table>
+
+    <!-- BR para pular duas linhas -->
+    <br>
+    <br>
+
+    <!-- Rodapé do site, fica sempre no finalzinho, pq é o rodapé né DERRRRRRRRRRRRRRRRRRRR -->
+    <footer>Viaje conosco e sua HONRA jamais morrerá!!</footer>
 </body>
 
 </html>
