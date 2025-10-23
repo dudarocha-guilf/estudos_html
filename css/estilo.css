@@ -1,0 +1,63 @@
+/* Estilizando todo o body, colocando tudo no centro */
+body {
+    text-align: center;
+}
+
+/* Estilizando todos os <p>, menos os q estão com o id, com a fonte */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilizando todos os <h1> e <h2>, com fonte e tamanho da fonte */
+h1,
+h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilizando o tamanho das imagens */
+img {
+    width: 300px;
+    height: 200px;
+}
+
+/*Estilizando o termo q esta com o id=css, com o tamanho, cor e tipo da fonte*/
+#css {
+    font-size: 36px;
+    color: salmon;
+    font-weight: bold;
+}
+
+/*Estilizando o termo que esta com o id=fundo, com a cor, tamanho, tipo e fonte dos escritos*/
+#fundo {
+    background-color: lightskyblue;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Estilizamos o termo que esta com id=borda, com a forma, a cor da borda e o tamanho da letra */
+#borda {
+    border: solid;
+    border-color: olive;
+    font-size: 32px;
+}
+
+/*Estilizamos o termo que esta com id=mistura1, com tamanho, forma e cor da borda, com tamanho, cor e decoração do texto*/
+#mistura1 {
+    border: 2px solid olive;
+    font-size: 32px;
+    color: seagreen;
+    text-decoration: underline;
+}
+
+/* estilizamos o termo que esta com  id=mistura2, com tudo q ta nos outros acima */
+#mistura2 {
+    background-color: slateblue;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: italic;
+    border-color: olive;
+    color: tomato;
+    text-decoration: underline;
+}
