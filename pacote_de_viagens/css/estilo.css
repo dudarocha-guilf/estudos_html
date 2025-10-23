@@ -1,0 +1,85 @@
+/* Estilizando tudo que estiver dentro do body */
+body {
+    background-image: url("../imagens/japao.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+
+    /* Cover = redimencionou a imagem para pegar a tela toda, independente da rolagem */
+    background-size: cover;
+    text-align: center;
+}
+
+/* Estilizando todas as imagens */
+img {
+    width: 400px;
+    height: 200px;
+}
+
+/* Estilizando o <h1> e <h2> */
+h1,
+h2 {
+    font-family: arial;
+    font-size: 48px;
+    color: lightcoral;
+    text-shadow: black 2px 2px;
+}
+
+/* Estilizando o termo que esta com o id=contato */
+#contato {
+    text-align: left;
+    font-size: 30px;
+    border-style: solid;
+    border-color: lightyellow;
+    border-width: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Estilizando o termo que esta com o id=tabela */
+#tabela {
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-size: 24px;
+    color: white;
+}
+
+/* Estilizando o cabeçalho */
+th {
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+/* Estilizando as células */
+td {
+    border-style: solid;
+    background-color: lightgrey;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/*Estilização do botão*/
+#botao {
+    color: red;
+    text-shadow: black 1px 1px;
+    text-align: right;
+}
+
+/* Estilização dos <HR> */
+hr {
+    border: 10px solid lightcoral;
+}
+
+/* Estilizando o footer = rodapé */
+footer {
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
