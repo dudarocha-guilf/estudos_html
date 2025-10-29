@@ -47,4 +47,56 @@ h4 {
 #menu ul li a {
     padding: 10px 30px;
     text-decoration: none;
+    background-color: #ededed;
+
+    /* Faz o link, virar caixinha, fica na mesma linha */
+    display: inline-block;
+
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 50px;
+}
+
+/* Quando passar o mouse sobre o botão a cor do mesmo vai mudar */
+#menu ul li a:hover {
+    background-color: #b5d45d;
+    color: #2d19e2;
+    border-bottom: 3px solid #ea0000;
+}
+
+/* Menu vertical */
+
+/* Estilizando o ul q ta dentro do menuv */
+#menuv ul {
+    /* remove a bolinha das listas */
+    list-style-type: none;
+    margin-left: 0;
+    padding: 20px 50px;
+    width: 150px;
+    background-color: #2b1010;
+}
+
+/* Estilizando o a, q ta dentro do li, q ta dentro do ul, q ta dentro do menuv */
+#menuv ul li a {
+    /* Faz o link, virar um bloco*/
+    display: block;
+    padding: 10px 40px;
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+
+/* Quando passar o mouse sobre o botão a cor dele vai mudar */
+#menuv ul li a:hover {
+    background-color: #b5d45d;
+    color: #2d19e2;
+    border-bottom: 3px solid #ea0000;
 }
