@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - DropDown</title>
+
+    <!-- Estilizando meu código com css interno -->
+    <!-- Estilizando a classe "dropbtn"-->
+    <style>
+        .dropbtn {
+            background-color: #4caf50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+
+            /* Qnd passar o mouse em cima, ele faz uma maozinha clicando*/
+            cursor: pointer;
+        }
+
+        /* Estilizando a classe "dropdown" */
+        .dropdown {
+
+            /*O elemento continua no mesmo espaço, mas pode ser movido com top, left, right e bottom*/
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Estilizando a classe "dropdown-conteudo" */
+        /* O pai é relativo e os filhos são absolutos */
+        .dropdown-conteudo {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+
+            /* Definindo a largura mínima do menu */
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgb(from 0, 0, 0, 0.2);
+
+            /* Camada q vai estar localizada */
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Primeira parte do código -->
+    <h2>Menu DropDown - SESI</h2>
+    <p>Mova o mouse até o botão para abrir o Menu DropDown</p>
+
+    <!-- Criando div com a classe "dropdown" -->
+    <div class="dropdown">
+
+        <!-- Criando um botãozinho -->
+        <!-- Criando div com a classe "dropbtn" -->
+        <button class="dropbtn">DropDown</button>
+
+        <!-- Criando a div com a classe "dropdown-conteudo" -->
+        <div class="dropdown-conteudo">
+
+            <!-- Colocando os links -->
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+
+</html>
