@@ -1,0 +1,53 @@
+/* Estilzando o body */
+body {
+    background-image: url('../imagens/capacete-ayrton-senna-senna.jpg');
+
+    /* A imagem cobre o fundo da tela */
+    background-size: cover;
+
+    /* Para a imagem ficar parada */
+    background-attachment: fixed;
+}
+
+/* Estilizando o h1 */
+h1 {
+    text-align: center;
+    text-shadow: red 1px 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gold;
+    border: red solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+/* EStilizando a classe imagem */
+.imagem {
+    border: 15px solid white;
+    width: 20%;
+    height: 20%;
+    box-shadow: 3px 3px red;
+
+    /* Deixa o elemento como referencia para posicionar coisas dentro dele permintindo deslocamentos*/
+    position: relative;
+
+    /* Qualquer movimento q possa ser animado vai ser suave e realizado em 0,25s */
+    transition: linear 0.25s;
+}
+
+/* Estilizando a rotacao1 */
+.rotacao1 {
+    /* Gira o elemento a 5graus no sentindo horario pq ta positivo */
+    transform: rotate(5deg);
+}
+
+/* Estilizando a rotacao2 */
+.rotacao2 {
+    /* Agora sera no anti horario pq ta negativo */
+    transform: rotate(-5deg);
+}
+
+.imagem:hover {
+    /* Scale é para dar zoom e o rotate 0 é para voltar para a posição reta */
+    transform: rotate(0deg) scale(1.5);
+}
