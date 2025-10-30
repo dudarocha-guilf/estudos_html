@@ -42,6 +42,30 @@
             /* Camada q vai estar localizada */
             z-index: 1;
         }
+
+        /* Estilizando o drop-down-conteudo */
+        .dropdown-conteudo a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+
+            /* É clicável em toda a linha, faz o link ocupar todo o espaço */
+            display: block;
+        }
+
+        .dropdown-conteudo a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-conteudo {
+            /* quando o usuario passar o mouse sobre a classe . dropdown o conteudo vai ser exibido*/
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            /* Muda a cor do botãp qnd o menu for exibido */
+            background-color: #3e8e41;
+        }
     </style>
 </head>
 
