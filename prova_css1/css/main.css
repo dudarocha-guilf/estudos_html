@@ -1,0 +1,82 @@
+/* Resetando os valores de espaçamento do navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o h4 */
+h4 {
+    font-size: 32px;
+    color: #ffffff;
+    background-color: rgb(80, 70, 70);
+    border: red 2px solid;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilizando a nav da classe menu */
+.menu {
+    /* background-size: cover;
+    display: block; */
+    width: 100%;
+    height: 70px;
+    background-color: #2b1010;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização das listas */
+
+/* Estilizando o ul q ta dentro menu */
+.menu ul {
+    list-style: none;
+    /* Pai é sempre relativo */
+    position: relative;
+}
+
+/* Estilizando o li q esta dentro do ul q esta dentro do menu */
+.menu ul li {
+    width: 200px;
+
+    /* Flutuando para a esquerda */
+    float: left;
+}
+
+/* Estilizando as ancora = a q ta dentro do menu*/
+.menu a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2b1010;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+/* Estilizando o ul dentro do ul q ta dentro do menu */
+.menu ul ul {
+    /* Filho é sempre absoluto */
+    position: absolute;
+
+    /* sub menu começa escondido */
+    visibility: hidden;
+}
+
+/* Estilizando o li q ta dentro do ul q ta dentro do meu */
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+/* Estilizando o a q ta dentro do menu */
+.menu a:hover {
+    background-color: #862175;
+    color: yellowgreen;
+}
+
+/* Estilizando o li q ta dentro do ul q ta dentro do ul q ta dentro do menu */
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
